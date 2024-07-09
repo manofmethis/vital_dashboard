@@ -9,8 +9,8 @@ st.set_page_config(page_title="Vital Signs", page_icon=":bar_chart", layout="wid
 st.title(" :bar_chart: Vital Signs Dashboard")
 st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 
-os.chdir(r'C:\Users\chira\OneDrive\Documents\decode\python')
-df=pd.read_excel(r"C:\Users\chira\OneDrive\Documents\decode\python\Vital_Signs.xlsx")
+#os.chdir(r'C:\Users\chira\OneDrive\Documents\decode\python')
+df=pd.read_excel("Vital_Signs.xlsx")
 
 ## Creating Date filter
 col1,col2=st.columns((2))
